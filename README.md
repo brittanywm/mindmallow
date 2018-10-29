@@ -2,9 +2,9 @@
 
 Interactive app to improve mood and productivity with mild binaural beat sound frequencies
 
-<kbd>
+<table><tr><td>
 <img src="http://zillberrycom.fatcow.com/mindmallow/mind-mallow-demo.gif" width="400" alt="Mindmallow demo">
-</kbd>
+</td></tr></table>
 
 ## Getting Started
 
