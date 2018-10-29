@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,400,700,300' rel='stylesheet' type='text/css'>
+	<title>::mindmallow::</title>
+</head>
+
+<body>
+	<div class="container">
+		<div id="navigation">
+			<div class="link" id="wakingup">
+				WAKING UP
+				<audio id="wakingup_audio" src="audio/brain_wavs/waking_up.mp3"></audio>
+			</div>
+			<div class="link" id="learning">
+				LEARNING
+				<audio id="learning_audio" src="audio/brain_wavs/learning.mp3"></audio>
+			</div>
+			<div class="link" id="headacherelief">
+				HEADACHE RELIEF
+				<audio id="headacherelief_audio" src="audio/brain_wavs/headache_relief.mp3"></audio>
+			</div>
+			<div class="link" id="moodelevation">
+				MOOD ELEVATION
+				<audio id="moodelevation_audio" src="audio/brain_wavs/mood_elevation.mp3"></audio>
+			</div>
+			<div class="link" id="painrelief">
+				PAIN RELIEF
+				<audio id="painrelief_audio" src="audio/brain_wavs/pain_relief.mp3"></audio>
+			</div>
+			<div class="link" id="euphoria">
+				EUPHORIA
+				<audio id="euphoria_audio" src="audio/brain_wavs/euphoria.mp3"></audio>
+			</div>
+			<div class="link" id="healing">
+				HEALING
+				<audio id="healing_audio" src="audio/brain_wavs/healing.mp3"></audio>
+			</div>
+			<div class="link lastlink" id="sleeping">
+				SLEEPING
+				<audio id="sleeping_audio" src="audio/brain_wavs/sleeping.mp3"></audio>
+			</div>
+		</div>
+
+		<div id="noise_faders">
+			<div>
+				<img src="img/buttons/ocean_off.svg" id="ocean_icon" class="nature_links" width="30px">
+			</div>
+			<div id="ocean_mixer" class="mixer_element">
+				<audio id="ocean" src="audio/ocean.mp3"></audio>
+				<input type="range" id="ocean_volume" min="0" max="1" step="0.0001" value="0.2" />
+				<img src="img/buttons/volume.svg" id="ocean_volume" class="mixer_volume" width="15px">
+			</div>
+
+			<div>
+				<img src="img/buttons/fireplace_off.svg" id="fireplace_icon" class="nature_links" width="30px">
+			</div>
+			<div id="fireplace_mixer" class="mixer_element">
+				<audio id="fireplace" src="audio/fireplace.mp3"></audio>
+				<input type="range" id="fireplace_volume" min="0" max="1" step="0.0001" value="0.3" />
+				<img src="img/buttons/volume.svg" id="fireplace_volume" class="mixer_volume" width="15px">
+			</div>
+
+			<div>
+				<img src="img/buttons/wind_off.svg" id="wind_icon" class="nature_links" width="30px">
+			</div>
+			<div id="wind_mixer" class="mixer_element">
+				<audio id="wind" src="audio/wind.mp3"></audio>
+				<input type="range" id="wind_volume" min="0" max="1" step="0.0001" value="0.2" />
+				<img src="img/buttons/volume.svg" id="wind_volume" class="mixer_volume" width="15px">
+			</div>
+
+			<div>
+				<img src="img/buttons/rain_off.svg" id="rain_icon" class="nature_links" width="30px">
+			</div>
+			<div id="rain_mixer" class="mixer_element">
+				<audio id="rain" src="audio/rain.mp3"></audio>
+				<input type="range" id="rain_volume" min="0" max="1" step="0.0001" value="0.3" />
+				<img src="img/buttons/volume.svg" id="rain_volume" class="mixer_volume" width="15px">
+			</div>
+
+		</div>
+
+		<div id="brain_container">
+			<img src="img/brain.svg" class="displayed" alt="brain" width="465.705px">
+		</div>
+
+		<div id="brain_blue">
+			<img src="img/blue_brain.svg" width="266.073px">
+		</div>
+
+		<div id="brain_orange">
+			<img src="img/orange_brain.svg" width="220.015px">
+		</div>
+
+		<div id="brain_purple">
+			<img src="img/purple_brain.svg" width="226.57px">
+		</div>
+
+		<div id="brain_gray">
+			<img src="img/gray_brain.svg" width="160.489px">
+		</div>
+
+		<div id="brain_green">
+			<img src="img/green_brain.svg" width="192.607px">
+		</div>
+	</div>
+
+	<div id="container2">
+		<div class="bottom-push">
+			<div class="link-wrap">
+				<a href="#b0" id="b0-link">
+				<span id="text_content"><strong>ABOUT</strong></span>
+			</a>
+				<a href="#b1" id="b1-link">
+				<span id="text_content"><strong>CREDITS</strong></span>
+			</a>
+			</div>
+
+			<div class='box' id='b0'>
+				<p>Mindmallow is a web app that generates audio frequencies, targeting specific areas of the brain. Along with these sounds, the user can blend in nature sounds. Mindmallow can be used to improve work productivity, state of mind, and relaxation.</p>
+				</br>
+				<p>This project is combines by passion for music and web development. Still very much in BETA (: Feel free to contact me at brittany.miltenberger[at]gmail.com</p>
+			</div>
+
+			<div class='box' id='b1'>
+				<a href="http://www.lunarsight.com/freq.htm" target="_blank">http://www.lunarsight.com/freq.htm</a></br>
+				<a href="http://soundbible.com/1936-Crisp-Ocean-Waves.html" target="_blank">http://soundbible.com/1936-Crisp-Ocean-Waves.html</a></br>
+				<a href="http://soundbible.com/1810-Wind.html" target="_blank">http://soundbible.com/1810-Wind.html</a></br>
+				<a href="http://soundbible.com/2065-Rain-Inside-House.html" target="_blank">http://soundbible.com/2065-Rain-Inside-House.html</a>
+			</div>
+		</div>
+	</div>
+
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
